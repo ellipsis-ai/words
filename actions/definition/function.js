@@ -1,6 +1,7 @@
 function(word, ellipsis) {
   // word-definition pulls a definition from wiktionary.org
 const define = require('word-definition');
+
 define.getDef(word, 'en', null, (result) => {
   if (result.err) {
     switch (result.err) {

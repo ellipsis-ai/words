@@ -1,16 +1,16 @@
 [ {
   "text" : "definition",
-  "requiresMention" : false,
+  "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
   "text" : "define {word}",
-  "requiresMention" : false,
+  "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
   "text" : "what does \"{word}\" mean",
-  "requiresMention" : false,
+  "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 } ]
